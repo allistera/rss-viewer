@@ -33,8 +33,7 @@
           <button @click="toggleTheme" 
                   type="button" 
                   :title="isDarkMode ? 'Switch to light mode' : 'Switch to dark mode'"
-                 class="
-  relative inline-flex items-center justify-center w-11 h-11 bg-gray-300 text-gray-800 rounded-lg border border-gray-300 transition duration-300 hover:bg-gray-400 focus:outline-none :class="[
+                  :class="[
                     'relative inline-flex items-center justify-center w-11 h-11 rounded-lg border-2 transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-4 active:scale-95',
                     isDarkMode 
                       ? 'bg-gray-800 border-gray-600 text-yellow-400 hover:bg-gray-700 hover:border-gray-500 focus:ring-yellow-300' 
