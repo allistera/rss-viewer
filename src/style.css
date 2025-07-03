@@ -1,0 +1,26 @@
+@import 'flowbite';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Make Add Comment button more visible */
+.add-comment-btn {
+  background: linear-gradient(90deg, #2563eb 0%, #1d4ed8 100%);
+  background-color: #007bff; /* Flat color */
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px; /* Adding slight rounding to buttons */
+  transition: background 0.2s;
+}
+.add-comment-btn:hover, .add-comment-btn:focus {
+  background-color: #0056b3; /* Darker flat color on hover */
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSS Feed Reader</title>
+    <script>
+        // Dark mode initialization - uses system preference by default
+        (function() {
+            const savedTheme = localStorage.getItem('color-theme');
+            const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+            
+            // Apply dark mode if user has saved preference OR system prefers dark (and no saved preference)
+            if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+                document.documentElement.classList.add('dark');
+            }
+        })();
+    </script>
+  <script type="module" crossorigin src="/assets/index-CzrZC2WN.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-CcyYK5Qs.css">
+</head>
+<body>
+    <div id="app"></div>
+</body>
+</html>

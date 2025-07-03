@@ -1,0 +1,26 @@
+{
+  "name": "rss-reader-app",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A Vue.js RSS feed reader application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.10",
+    "flowbite": "^3.1.2",
+    "pinia": "^3.0.3",
+    "vue": "^3.4.0",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.10",
+    "vite": "^5.0.0"
+  }
+}
